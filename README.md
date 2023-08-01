@@ -1,5 +1,10 @@
 Implementation of [precious themes](https://github.com/precious-themes) for Sublime Text.
 
+Installation
+---
+
+Unpack the zip with the themes into the plugin folder (Command Palette -> Preferences: Browse Packages).
+
 Screenshots
 ---
  
