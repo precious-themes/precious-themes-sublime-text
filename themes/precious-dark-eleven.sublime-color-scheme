@@ -32,7 +32,7 @@
     "guide": "#292b2d",
     "active_guide": "#424345",
     "stack_guide": "#292b2d",
-    "brackets_foreground": "#23a994",
+    "brackets_foreground": "#24a994",
     "bracket_contents_foreground": "#a3a2a2",
     "tags_foreground": "#4d4f50",
     "shadow": "#a5acb633"
@@ -129,7 +129,7 @@
     },
     {
       "scope": "constant.character.character-class.regexp, constant.other.character-class.regexp, constant.other.character-class.set.regexp, constant.other.database-name, constant.other.table-name, entity.name.class, entity.name.function.target.makefile, entity.name.namespace, entity.name.scope-resolution, entity.name.type, entity.other.attribute, entity.other.inherited-class, meta.type.cast.expr, meta.type.new.expr, punctuation.definition.constant.xml, storage.type.cs, storage.type.generic.cs, storage.type.generic.groovy, storage.type.generic.java, storage.type.groovy, storage.type.java, storage.type.modifier.cs, storage.type.object.array.groovy, storage.type.object.array.java, storage.type.parameters.groovy, storage.type.token.java, storage.type.variable.cs, support.class, support.constant.dom, support.constant.json, support.constant.math, support.other.escape.special.regexp, support.type, text.html constant.character.entity, text.xml constant.character.entity",
-      "foreground": "#41bda7"
+      "foreground": "#42bda7"
     },
     {
       "scope": "entity.name.command, entity.name.function, entity.name.operator.custom-literal, entity.name.type.anchor.yaml, entity.other.attribute-name, keyword.other.definition.ini, markup.changed, markup.underline.link.markdown, meta.function-call.generic.python, meta.scope.prerequisites.makefile, punctuation.definition.evaluation.backticks.shell, punctuation.definition.evaluation.parens.begin.shell, source.coffee.embedded, source.powershell variable.other.member, support.constant.handlebars, support.constant.java-properties, support.function, support.type.property-name, support.type.vendored.property-name, variable.css, variable.language.documentroot.xml, variable.other.alias.yaml, variable.other.metavariable.name.rust",
@@ -150,15 +150,15 @@
     },
     {
       "scope": "support.function.magic, support.variable.magic",
-      "foreground": "#e08cd9"
+      "foreground": "#e18cd9"
     },
     {
       "scope": "constant.regexp, entity.name.tag.namespace, entity.name.variable.event, entity.name.variable.field, entity.name.variable.property, entity.other.attribute-name.namespace, markup.heading, punctuation.definition.heading.markdown, support.type.property-name.json, variable.other.event, variable.other.object.property, variable.other.less, variable.scss, variable.other.property",
-      "foreground": "#f189b4"
+      "foreground": "#f289b4"
     },
     {
       "scope": "constant.other.enum, variable.other.enummember",
-      "foreground": "#f189b4",
+      "foreground": "#f289b4",
       "font_style": "italic"
     },
     // sublime-text specific tokens
@@ -191,7 +191,7 @@
     },
     {
       "scope": "entity.name.enum, entity.name.impl.rust, entity.name.interface, entity.name.struct, keyword.control.character-class.regexp, meta.generic.rust, meta.toc-list.full-identifier.sql, storage.type.class, storage.type.go",
-      "foreground": "#41bda7"
+      "foreground": "#42bda7"
     },
     {
       "scope": "entity.name.other.anchor.yaml, meta.method.groovy, variable.function",
@@ -208,11 +208,11 @@
     },
     {
       "scope": "meta.mapping.key.json string.quoted, punctuation.definition.heading.begin.markdown, variable.other.member",
-      "foreground": "#f189b4"
+      "foreground": "#f289b4"
     },
     {
       "scope": "constant.other.java, entity.name.constant",
-      "foreground": "#f189b4",
+      "foreground": "#f289b4",
       "font_style": "italic"
     }
   ]

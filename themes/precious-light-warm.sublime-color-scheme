@@ -12,30 +12,30 @@
     "misspelling": "#c8d6b4",
     "fold_marker": "#ece4d6",
     "minimap_border": "#7a7b7c33",
-    "accent": "#296da3",
+    "accent": "#246da5",
     "gutter": "#fff5e5",
     "gutter_foreground": "#b2b4be",
     "gutter_foreground_highlight": "#767b8d",
     "line_diff_width": "4",
     "line_diff_added": "#a3bc90",
-    "line_diff_modified": "#97b9d5",
-    "line_diff_deleted": "#e5a39b",
-    "selection": "#c6daed",
-    "selection_border": "#c6daed",
-    "inactive_selection": "#e5e3dc",
-    "inactive_selection_border": "#e5e3dc",
-    "highlight": "#6b821e",
+    "line_diff_modified": "#95b9d6",
+    "line_diff_deleted": "#e4a39b",
+    "selection": "#c5daee",
+    "selection_border": "#c5daee",
+    "inactive_selection": "#e5e3dd",
+    "inactive_selection_border": "#e5e3dd",
+    "highlight": "#6b821d",
     "find_highlight": "#d2daaf",
     "scroll_highlight": "#94a85e",
-    "scroll_selected_highlight": "#6b821e",
+    "scroll_selected_highlight": "#6b821d",
     "rulers": "#f1e9da",
     "guide": "#ebe3d5",
     "active_guide": "#cbc5bc",
     "stack_guide": "#ebe3d5",
-    "brackets_foreground": "#2d8878",
+    "brackets_foreground": "#2c8978",
     "bracket_contents_foreground": "#626569",
     "tags_foreground": "#bdb9b2",
-    "shadow": "#56616d33"
+    "shadow": "#56616e33"
   },
   "rules": [
     // imported from vscode
@@ -99,11 +99,11 @@
     },
     {
       "scope": "invalid, markup.deleted",
-      "foreground": "#b14645"
+      "foreground": "#b04745"
     },
     {
       "scope": "invalid.deprecated",
-      "foreground": "#b14645",
+      "foreground": "#b04745",
       "font_style": "strikethrough"
     },
     {
@@ -129,28 +129,28 @@
     },
     {
       "scope": "constant.character.character-class.regexp, constant.other.character-class.regexp, constant.other.character-class.set.regexp, constant.other.database-name, constant.other.table-name, entity.name.class, entity.name.function.target.makefile, entity.name.namespace, entity.name.scope-resolution, entity.name.type, entity.other.attribute, entity.other.inherited-class, meta.type.cast.expr, meta.type.new.expr, punctuation.definition.constant.xml, storage.type.cs, storage.type.generic.cs, storage.type.generic.groovy, storage.type.generic.java, storage.type.groovy, storage.type.java, storage.type.modifier.cs, storage.type.object.array.groovy, storage.type.object.array.java, storage.type.parameters.groovy, storage.type.token.java, storage.type.variable.cs, support.class, support.constant.dom, support.constant.json, support.constant.math, support.other.escape.special.regexp, support.type, text.html constant.character.entity, text.xml constant.character.entity",
-      "foreground": "#137767"
+      "foreground": "#107767"
     },
     {
       "scope": "entity.name.command, entity.name.function, entity.name.operator.custom-literal, entity.name.type.anchor.yaml, entity.other.attribute-name, keyword.other.definition.ini, markup.changed, markup.underline.link.markdown, meta.function-call.generic.python, meta.scope.prerequisites.makefile, punctuation.definition.evaluation.backticks.shell, punctuation.definition.evaluation.parens.begin.shell, source.coffee.embedded, source.powershell variable.other.member, support.constant.handlebars, support.constant.java-properties, support.function, support.type.property-name, support.type.vendored.property-name, variable.css, variable.language.documentroot.xml, variable.other.alias.yaml, variable.other.metavariable.name.rust",
-      "foreground": "#296da3"
+      "foreground": "#246da5"
     },
     {
       "scope": "markup.underline.link.image.markdown, variable.parameter.function-call",
-      "foreground": "#5860bb"
+      "foreground": "#5860bc"
     },
     {
       "scope": "entity.name.type.lifetime.rust",
-      "foreground": "#5860bb",
+      "foreground": "#5860bc",
       "font_style": "italic"
     },
     {
       "scope": "constant.character.entity, constant.character.escape, constant.language, constant.other.color.rgb-value, constant.other.rgb-value, constant.other.reference.link.markdown, entity.name.operator, entity.name.section.group-title.ini, entity.name.selector, entity.name.tag, entity.name.type.numeric.rust, entity.other.attribute-name.class.css, entity.other.attribute-name.class.mixin.css, entity.other.attribute-name.id.css, entity.other.attribute-name.parent-selector.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.css, entity.other.attribute-name.scss, keyword, keyword.control, keyword.control, keyword.control.anchor.regexp, keyword.operator.alignas, keyword.operator.alignof, keyword.operator.cast, keyword.operator.disjunction.regexp, keyword.operator.expression, keyword.operator.instanceof, keyword.operator.logical.python, keyword.operator.new, keyword.operator.noexcept, keyword.operator.or.regexp, keyword.operator.sizeof, keyword.operator.typeid, keyword.operator.wordlike, keyword.other.operator, keyword.other.using, meta.at-rule.extend.scss, meta.diff.header, meta.object-literal.key, meta.selector, meta.separator.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.strikethrough.markdown, punctuation.definition.string.heredoc.shell, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, punctuation.definition.variable.shell, punctuation.section.embedded, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, source.cpp keyword.operator.delete, source.cpp keyword.operator.new, source.css.less entity.other.attribute-name.id, storage, storage.modifier, storage.type, storage.type.boolean.go, storage.type.byte.go, storage.type.error.go, storage.type.numeric.go, storage.type.rune.go, storage.type.string.go, storage.type.uintptr.go, support.constant.color, support.constant.font-name, support.constant.media, support.constant.media-type, support.constant.property-value, support.function.builtin.python, support.other.match.begin.regexp, support.other.match.end.regexp, source.css support.function, source.makefile support.function, source.toml support.type.property-name, support.type.primitive, variable.language",
-      "foreground": "#874cbe"
+      "foreground": "#884cbf"
     },
     {
       "scope": "support.function.magic, support.variable.magic",
-      "foreground": "#9e4698"
+      "foreground": "#9f4699"
     },
     {
       "scope": "constant.regexp, entity.name.tag.namespace, entity.name.variable.event, entity.name.variable.field, entity.name.variable.property, entity.other.attribute-name.namespace, markup.heading, punctuation.definition.heading.markdown, support.type.property-name.json, variable.other.event, variable.other.object.property, variable.other.less, variable.scss, variable.other.property",
@@ -191,20 +191,20 @@
     },
     {
       "scope": "entity.name.enum, entity.name.impl.rust, entity.name.interface, entity.name.struct, keyword.control.character-class.regexp, meta.generic.rust, meta.toc-list.full-identifier.sql, storage.type.class, storage.type.go",
-      "foreground": "#137767"
+      "foreground": "#107767"
     },
     {
       "scope": "entity.name.other.anchor.yaml, meta.method.groovy, variable.function",
-      "foreground": "#296da3"
+      "foreground": "#246da5"
     },
     {
       "scope": "entity.name.label.rust, storage.modifier.lifetime.rust",
-      "foreground": "#5860bb",
+      "foreground": "#5860bc",
       "font_style": "italic"
     },
     {
       "scope": "entity.name.table.toml, keyword.control.anchor.regexp, keyword.control.directive.css, keyword.control.regexp, keyword.operator.alternation.regexp, meta.mapping.key.yaml string.unquoted, source.shell entity.name.tag.heredoc, storage.type.class.groovy, storage.type.class.kotlin, storage.type.primitive, support.type.builtin, text.html.jsp keyword.control.directive, text.html.markdown punctuation.definition.bold, text.html.markdown punctuation.definition.italic, text.html.markdown punctuation.definition.strikethrough",
-      "foreground": "#874cbe"
+      "foreground": "#884cbf"
     },
     {
       "scope": "meta.mapping.key.json string.quoted, punctuation.definition.heading.begin.markdown, variable.other.member",
